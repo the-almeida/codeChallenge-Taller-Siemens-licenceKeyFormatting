@@ -1,6 +1,6 @@
-import { licenseKeyFormatting } from './src/licenseKeyFormatting';
+import { licenseKeyFormatting } from './licenseKeyFormatting';
 
-console.log("Running licenseKeyFormatting with the provided examples: \n -1st: S = '5F3Z-2e-9-w',  K = 4 \n -2nd: S = '2-5g-3-J', K = 2")
+console.log("Running licenseKeyFormatting with the provided examples: \n - 1st: S = '5F3Z-2e-9-w',  K = 4 \n - 2nd: S = '2-5g-3-J', K = 2")
 const input1 = '5F3Z-2e-9-w';
 const k1 = 4;
 const result1 = licenseKeyFormatting(input1, k1);
